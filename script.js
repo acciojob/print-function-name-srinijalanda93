@@ -1,1 +1,9 @@
-//your JS code here. If required.
+function functionName(){
+	alert("functionName");
+//console.log(functionName.name);
+}
+function AccioJob(){
+alert("AccioJob");
+}
+ functionName();
+AccioJob()

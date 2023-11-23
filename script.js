@@ -1,9 +1,6 @@
-function functionName(){
-	alert("functionName");
-//console.log(functionName.name);
-}
-function AccioJob(){
-alert("AccioJob");
-}
- functionName();
-AccioJob()
+function functionName()
+	{
+		alert(arguments.callee.name);
+	}
+
+functionName();
